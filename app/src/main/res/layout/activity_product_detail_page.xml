@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.ProductDetailPage">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/pDetailImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/pDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODUCT NAME"
+        android:textSize="30dp"
+        android:layout_below="@id/pDetailImage"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/pDetailDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODUCT DESCRIPTION"
+        android:textSize="20dp"
+        android:layout_below="@id/pDetailName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/pDetailPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRICE"
+        android:textSize="30dp"
+        android:layout_below="@id/pDetailDesc"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pDetailPrice"
+        android:layout_marginTop="20dp"
+        android:text="ADD BASKET"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:background="@color/dark_blue"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        ></Button>
+
+</RelativeLayout>
+</ScrollView>

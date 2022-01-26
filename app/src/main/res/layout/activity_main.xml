@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.MainActivity"
+    android:background="@color/dark_blue">
+
+    <ImageView
+        android:id="@+id/iconImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/userEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Email.."
+        android:layout_below="@id/iconImage"
+        android:layout_marginTop="100dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Password.."
+        android:layout_below="@id/userEmailLogin"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"></EditText>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/userPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/sea_green"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Logın"></Button>
+
+    <Button
+        android:id="@+id/btnRegisterPage"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/userPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/btnLogin"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Regıster"></Button>
+
+
+</RelativeLayout>
