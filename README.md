@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/2.9.0-Retrofit-brightgreen)](https://square.github.io/retrofit/)
 # Android Ürün Tanıtımı
  Bu uygulama bir şirketin ürün tanıtımlarını yaparak, kullanıcıdan gelen siparişleri servis kanalıyla alır ve ürünü müşteriye yollar.
  
