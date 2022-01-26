@@ -1,5 +1,9 @@
 # Android Ürün Tanıtımı
  Bu uygulama bir şirketin ürün tanıtımlarını yaparak, kullanıcıdan gelen siparişleri servis kanalıyla alır ve ürünü müşteriye yollar.
+ 
+ | Kullanıcı Adı  | Şifre |
+| ------------- | ------------- |
+| eray@eray.com | 123456  |
 
 <p>
   
