@@ -1,5 +1,5 @@
 # Android Ürün Tanıtımı
-Açıklama satırı
+ Bu uygulama bir şirketin ürün tanıtımlarını yaparak, kullanıcıdan gelen siparişleri servis kanalıyla alır ve ürünü müşteriye yollar.
 
 <p>
   
